@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+
+struct HomePageContent: Encodable {
+    let title: String
+    let subtitle: String
+    let body: String
+}
+
+enum CorePage {
+    case about
+    case privacy
+    case user
+}

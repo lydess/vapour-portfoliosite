@@ -1,5 +1,5 @@
 #extend("home"):
-    #export("body"):
+    #export("about"):
         <p>This is extended content</p>
     #endexport
 #endextend

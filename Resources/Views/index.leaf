@@ -1,11 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>William Vise Portfolio</title>
+    <meta charset="UTF-8">
+        <title>William Vise Portfolio</title>
+        <link rel="stylesheet" href="index.css">
 </head>
-<body>
-<p> default content
+<body>  <main>
+    <header> William Vise, IOS developer Portfolio </header>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>I am an IOS developer always looking to improve my work and gain a better understanding <br>
+        of how mobile technology works and how to make it work better for the people that use it <br>
+        in their day to day lives. <br>
+      </p>
+      <p>
+        Below are a few examples of projects i've made to show off my work and how they've all related to <br>
+        learning somthing new or practicing a skill in the world of iOS dev
+      </p>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+       <h2>Soothing Relaxation </H2>
+       <div id="bodytext">
+        <h3> Description: </h3>
+          This project was my first iOS app released publicly on the app store, and its primary goal was to gain experience in the process of releasing and supporting an app on the App Store over a longer period.
+          The app is a simple noise maker that uses AVFoundation and is connected to a Core-data store.
+        <h3> Challenges & Solutions: </h3>
+          - Versioning: To manage different versions of the app, I used Xcode's built-in version control system.
+          - Profile handling: I used Apple's developer portal to manage different app profiles for distribution to different environments.
+          - App Store guidelines: I studied Apple's App Store guidelines thoroughly and made sure that the app met all the requirements.
+          - Handling updates to the human interface guidelines: As new versions of iOS were released, I updated the app to follow the latest human interface guidelines.
+          - Adapting to new hardware features by Apple: As new hardware features were introduced, such as FaceID and TouchID, I updated the app to support them.
+          - Handling user interactions such as reviews: I monitored user reviews and feedback and made necessary changes to improve the app.
+          - Continuous improvement to maintain the app with newer Apple devices: As new iOS versions and devices were released, I made sure that the app remained compatible and functional.
+        <h3> Results: </h3>
+          The app has been on the App Store for almost a year and has been downloaded by thousands of users.
+          It has allowed me to gain valuable experience in managing different aspects of an iOS app, from development to release and support.
+          The app continues to serve as a reference for best practices in iOS development and is a testament to my commitment to continuous learning and improvement.
+
+         Check it out on the appstore: <a href="https://apps.apple.com/us/app/soothing/id1640840006">https://apps.apple.com/us/app/soothing/id1640840006</a>
+        
+        
+</div>
+<div id="imagestack">
+    <img src="p1home.png" width="150" height="300" alt="Image description">
+    <img src="p1song.png" width="150" height="300" alt="Image description">
+</div>
+       <h2>Shopify on IOS template </h2>
+       <div id="bodytext">
+        <h3> Description:  </h3>
+
+          The Shopify Ecommerce App is an iOS app that connects to a Shopify backend and allows for seamless integration with the client's online store.
+          The app dynamically adjusts its content, such as store products and company profiles, based on the Shopify store that it is connected to.
+          The app was designed as a template for clients wishing to enter the mobile app space for their online business and was built to be easily customized to suit the unique needs of each client during consultation.
+
+        <h3> Challenges & Solutions: </h3>
+
+          - APIs and data management: The app required a solid understanding of APIs and data management as the app's communication was done through both Restful API calls and a Swift package that managed the data exchanges via Graph.Ql.
+          - Dynamic content adjustment: To allow for dynamic content adjustment based on the connected Shopify store, I used the Shopify API to fetch store data and display it in the app.
+          - Customization: To allow for easy customization of the app to suit the unique needs of each client, I designed the app to be modular, with separate components that could be easily swapped out or customized.
+          - Backend integration: To ensure seamless integration with the Shopify backend, I thoroughly tested the app's API calls and data management to ensure that the app could handle different scenarios and edge cases.
+        <h3> Results: </h3>
+          The Shopify Ecommerce App has been successfully presented to small business clients intrested in bringing their storefront experience to native mobile.
+          The app has allowed me to gain valuable experience in working with APIs and data management and has served as a testament to my ability to design modular, customizable apps that can be easily adapted to suit the unique needs of each client.
+        <h3> Demonstration: </h3>
+          As an example of the flexibility of the app, only 4 hours of work went into prototyping a shopify app for a cookies company, the app features a 1:1 parity with all information
+          on the shopify site, the 2 cookie products and all sections within the about page are configured on the shopify website that the user is familar with and is automaticly added and updated
+          to the app experience, with minor UI tweeking via swiftui the layout and branding can be altered to suit whatever the orginisations requirements are.
+          The app also maintains the functionality of the payment proccessing platform that shopify provides whilst also maintaining compatability for native iOS payment proccessing.
+       </div>
+       <div id="imagestack">
+           <img src="p2home.png" width="150" height="300" alt="Image description">
+           <img src="p2about.png" width="150" height="300" alt="Image description">
+           <img src="p2product.png" width="150" height="300" alt="Image description">
+  </div>
+       <h2>ARkit experience</h2>
+       <div id="bodytext">
+        <h3> Description: </h3>
+        My most recent project is an AR app that utilizes ARKit and Metal to provide a more detailed model of objects captured as part of the RoomCapture framework generated by the ARKit scanning session.
+        The goal of the project is to create an intuitive way for users to scan and capture objects in their environment, and have those objects rendered in a high-quality 3D model.
+        <h3> Challenges & Solutions: </h3>
+          - ARKit Integration: The app heavily relies on ARKit, and integrating it required a deep understanding of its features and capabilities.
+          - Metal Rendering Engine: To create a detailed 3D model of objects, the app uses Metal, which required me to have a solid understanding of the rendering pipeline and graphics programming.
+          - Performance Optimization: Rendering high-quality 3D models in real-time can be computationally intensive, so I had to optimize the app's performance to ensure a smooth user experience.
+          - User Experience Design: I worked closely with a designer to create an intuitive and visually appealing user interface that allows users to easily capture and manipulate 3D objects.
+          - Testing and Debugging: As with any development project, testing and debugging were crucial to ensuring the app worked as intended.
+        <h3> Results: </h3>
+          The project is still in the early stages of development, but I have already gained valuable experience in ARKit and Metal programming.
+          The app has the potential to revolutionize the way users capture and render 3D models of objects in their environment, and I am excited to continue developing it.
+          I am confident that the skills and experience I have gained through this project will be valuable in future projects involving AR and 3D graphics programming.
+      </div>
+
+      
+    </section>
+
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>Email: williamvisecontact@gmail.com</p>
+      <p>GitHub: https://github.com/lydess</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="about.html">about</a>
+    <p> &copy; William Vise
+      <script>document.write(new Date().getFullYear());</script>
+    </p>
+  </footer>
+<p> default content </p>
 #import("about")
-#dumpContext
+#if(DEBUG):
+<p> William Vise Portfolio </p>
+#endif
 </body>

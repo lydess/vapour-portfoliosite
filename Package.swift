@@ -32,6 +32,7 @@ let package = Package(
         .executableTarget(name: "Run", dependencies: [.target(name: "App")]),
         .testTarget(name: "AppTests", dependencies: [
             .target(name: "App"),
+            
             .product(name: "XCTVapor", package: "vapor"),
         ])
     ]

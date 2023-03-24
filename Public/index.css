@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'ValeraRound';
-  src: url('fonts/ValeraRound.ttf');
+  src: url('VarelaRound.ttf');
   font-family: 'CustomFont', Arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ header {
   border-radius:  10px;
 }
 p {
-  font-family: 'ValeraRound', Arial, Helvetica, sans-serif;
+  font-family: 'VarelaRound', Arial, Helvetica, sans-serif;
 }
 nav ul {
   list-style: none;
