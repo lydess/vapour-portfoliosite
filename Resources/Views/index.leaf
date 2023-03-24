@@ -6,7 +6,15 @@
         <link rel="stylesheet" href="index.css">
 </head>
 <body>  <main>
-    <header> William Vise, IOS developer Portfolio </header>
+    <header> <h1 id="titletext"> William Vise, IOS developer Portfolio </h1>
+    <div id="headerbuttons">
+    <p id="headerbutton"> Home </p>
+    <p id="headerbutton"> | </p>
+    <p id="headerbutton" > About </p>
+    <p id="headerbutton"> | </p>
+    <p id="headerbutton" > Contact </p>
+    </div>
+    </header>
     <section id="about">
       <h1>About Me</h1>
       <p>I am an IOS developer always looking to improve my work and gain a better understanding <br>

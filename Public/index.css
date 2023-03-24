@@ -78,6 +78,19 @@ footer {
 #bodytext {
   
 }
+#titletext {
+  text-align: center;
+}
+#headerbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#headerbutton {
+    padding-left: 10px;
+}
 #imagestack img {
   display: inline-block;
   vertical-align: middle;
