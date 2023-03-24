@@ -1,0 +1,5 @@
+#extend("home"):
+    #export("body"):
+        <p>This is extended content</p>
+    #endexport
+#endextend

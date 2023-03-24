@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'ValeraRound';
+  src: url('fonts/ValeraRound.ttf');
+  font-family: 'CustomFont', Arial, sans-serif;
+}
+
+body {
+  font-family: 'ValeraRound', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgb(121, 124, 212);
+  color: rgb(183, 237, 255);
+  padding: 20px;
+  border-radius:  10px;
+}
+p {
+  font-family: 'ValeraRound', Arial, Helvetica, sans-serif;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  color: #333;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #eee;
+}
+
+footer {
+  background: linear-gradient(to top right, rgb(61, 68, 255), rgb(82, 244, 250));
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+#bodytext {
+  
+}
+#imagestack img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  nav ul li {
+    display: block;
+  }
+
+  nav ul li a {
+    padding: 5px;
+  }
+}
